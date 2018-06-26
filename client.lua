@@ -27,6 +27,10 @@ end
 -- IPL list 1.0.1290: https://pastebin.com/iNGLY32D
 -- Extra IPL info: https://pastebin.com/SE5t8CnE
 function RequestAllIpls()
+	--- Ferris Wheel
+	RequestIpl("ferris_finale_anim")
+	RequestIpl("ferris_finale_anim_lod")
+	
 	-- Simeon: -47.162, -1115.333, 26.5
 	RequestIpl("shr_int")
 
